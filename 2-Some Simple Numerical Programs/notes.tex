@@ -1,0 +1,25 @@
+\documentclass[12 pt, Letterpaper, twoside]{article}
+\usepackage[utf8]{inputenc}
+\title{Notes on Chapter 3 - Some Simple Numerical Programs}
+\author{Swarup Tripathy \thanks{John V Guttag}}
+\date{January 2022}
+
+\begin{document}
+    \maketitle
+    A curated list of important points for my reference.
+    \begin{enumerate}
+        \item Multiline comments
+            \begin{itemize}
+                \item Triple quoted text should not be considered multi-line comments; by convention, they are docstrings
+                \item Additional comment styles add unnecessary complications and could decrease readability
+                \item Guido Tweet: You can use multi-line strings as multi-line comments. Unless used as docstrings, they generate no code.
+                \item Triple quotes are treated as regular strings with the exception that they can span multiple lines. 
+                By regular strings I mean that if they are not assigned to a variable they will be immediately garbage collected as soon as that code executes. 
+                Hence are not ignored by the interpreter in the same way that #a comment is.
+            \end{itemize}
+        \item Ctrl + C terminates the infinite looping 
+        \item Modern computers are amazingly fast. It takes on the order of one nanosecond-one billionth of a second-to execute an instruction.
+        \item The range function takes three integer arguments: start, stop, step
+        \item Exhaustive Enumeration Algorithm = Variant of guess and check. We enumerate all possibilites until we get to the right answer or exhaust the space of possibilities.
+    \end{enumerate}
+\end{document}
