@@ -1,4 +1,4 @@
-\documentclass[12 pt, Letterpaper, twoside]{article}
+\documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \title{Notes on Chapter 3 - Some Simple Numerical Programs}
 \author{Swarup Tripathy \thanks{John V Guttag}}
@@ -15,11 +15,50 @@
                 \item Guido Tweet: You can use multi-line strings as multi-line comments. Unless used as docstrings, they generate no code.
                 \item Triple quotes are treated as regular strings with the exception that they can span multiple lines. 
                 By regular strings I mean that if they are not assigned to a variable they will be immediately garbage collected as soon as that code executes. 
-                Hence are not ignored by the interpreter in the same way that #a comment is.
+                Hence are not ignored by the interpreter in the same way that a comment is.
             \end{itemize}
         \item Ctrl + C terminates the infinite looping 
         \item Modern computers are amazingly fast. It takes on the order of one nanosecond-one billionth of a second-to execute an instruction.
         \item The range function takes three integer arguments: start, stop, step
         \item Exhaustive Enumeration Algorithm = Variant of guess and check. We enumerate all possibilites until we get to the right answer or exhaust the space of possibilities.
+        \item The \textbf{for} statemtent can be used in conjunction with the \textbf{in operator} to coveniently iterate over characters of a string.
+        \item If problem statement given \textit{finding square root of non-negative number} or \textit{finding square root of 2} would be initially answered as \textbf{cannot be solved}. 
+        The right thing to have asked for is a program that \textit{finds an approximation to the square root} i.e., an answer that is close enough to the actual square root answer.
+        \item Exhaustive enumeration is a search technique thhat works only if the set of values being searched includes the answer.
+        \item \textbf{ \textit{Bi-Section Search Algorithm}}
+            \begin{itemize}
+                \item Taking the example of finding a square root of a given number
+                \item Suppose we know that a good approximation to the square root of x lies somewhere between 0 and max.
+                \item We can exploit the fact that numbers are totally ordered.
+                \item For any pair of distinct numbers, n1 and n2, either n1 < n2 or n1>n2. So, we can think of square root of x as lying somewhere on the line and start searching for that interval.
+                \item Since, we don't necessarily know where to start searching, we begin from the middle. If that is not the right answer(and it won't be most of the time), ask whether it is too big or too small. 
+                \item If it is too big, we know that the answer lies to the left.
+                \item If it is too small, we know that the answer lies to the right.
+                \item We then repeat the process on a smaller interval.
+\begin{verbatim}
+    x=9
+    epsilon = 0.01
+    numGuesses = 0
+    low = 0.0
+    high = max(1.0,x)
+    ans = (high+low)/2.0
+    while abs(ans**2 -x) >= epsilon:
+        print('low =',low,'high =',high,'ans =',ans)
+        numGuesses += 1
+        if ans**2 < x:
+            low = ans
+        else:
+            high = ans
+        ans = (high + low)/2.0
+
+    print('numGuesses =',numGuesses)
+    print(ans,'is close to square root of',x)
+\end{verbatim}
+            \end{itemize}
+            \item In almost all modern programming languages non-integer numbers are implemented using a representation called \textit{Floating Point.}
+            \item \textbf{ \textit{Newton Rhapson Method for finding Square root}}
+            \begin{quote}
+                Given \(x^2-28=0=f(x)\) so that \(f'(x)=2x\)
+            \end{quote}
     \end{enumerate}
 \end{document}
