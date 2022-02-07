@@ -1,5 +1,5 @@
 # NEWTON RAPHSON method for square root
-# Find x such that x**2-24 is within epsilon of 0
+# Find x such that x**2-24 is within epsilon of 0.01
 
 epsilon = 0.01
 k = 24
