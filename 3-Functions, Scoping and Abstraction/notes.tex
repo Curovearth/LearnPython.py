@@ -1,5 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
 
 \title{Notes on Chapter 4 - Functions, Scoping and Abstraction}
 \author{Swarup Tripathy \thanks{John V Guttag}}
@@ -26,6 +28,20 @@
         \item Fibonacci Numbers
         \begin{itemize}
             \item The fib(k - n + 1) will give number of times fib(n) called when calculating fib(k) recursively, where k > n and this works for n = 0 as well.
+            \begin{figure}[htp]
+                \centering
+                \includegraphics[width=9cm]{imgs/ex1.jpg}
+                \caption{An example where k=6 and n=3} \href{https://stackoverflow.com/questions/63136225/how-many-times-does-fib3-gets-called-when-we-call-fib6-using-the-recursive-a}{Reference}.
+                \label{fig:galaxy}
+            \end{figure}
+        \end{itemize}
+        \item When two Boolean-valued expressions are connected by 'and', each expression is called a \textbf{conjunct}. If they are connected by 'or', they are called \textbf{disjuncts}.
+        \item Fun with Palindromes for Strings
+        \begin{itemize}
+            \item To check for uppercase and lowercase -> convert to either of them
+            \item To check for presence of numbers in between strings which needs to be discarded -> just use for loop having \textbf{in} operator in the alphabets.
+            \item If the length of string $\geq$ 1, it's already a Palindrome.
+            \item else return s[0]==s[-1] and isPal(s[1:-1]), where s=string and isPal=from-above-point.
         \end{itemize}
     \end{enumerate}
 \end{document}
