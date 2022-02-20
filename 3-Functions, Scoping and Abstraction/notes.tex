@@ -41,7 +41,11 @@
             \item To check for uppercase and lowercase -> convert to either of them
             \item To check for presence of numbers in between strings which needs to be discarded -> just use for loop having \textbf{in} operator in the alphabets.
             \item If the length of string $\geq$ 1, it's already a Palindrome.
-            \item else return s[0]==s[-1] and isPal(s[1:-1]), where s=string and isPal=from-above-point.
+            \item else return s[0]==s[-1] and isPal(s[1:-1]), where s=string and isPal=s[1:-1].
         \end{itemize}
+        \item There is a variant of the \textit{import} statement that allows the importing program to omit the module name when accessing names defined inside the imported module. Executing the statement \textit{from M import *} creates bindings in the current scope to all objects defined within 
+        M, but not to M itself. 
+        \item In simple language, when you directly use \textit{import M} in order to access the names you'll be requiring to use the module name every time whereas if you just use \textit{from M import *} the names are accessible freely.
+        \item Python achieves operating system independence by accessing files through something called a \textbf{file handle.}
     \end{enumerate}
 \end{document}

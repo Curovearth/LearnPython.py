@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.8)  15 FEB 2022 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.8)  20 FEB 2022 21:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -218,27 +218,32 @@ Package pdftex.def Info: imgs/ex1.jpg  used on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 43.
 
-Overfull \hbox (34.23093pt too wide) in paragraph at lines 44--45
-[]\OT1/cmr/m/n/10.95 else re-turn s[0]==s[-1] and isPal(s[1:-1]), where s=string and isPal=from-
+Overfull \hbox (27.87383pt too wide) in paragraph at lines 44--45
+[]\OT1/cmr/m/n/10.95 else re-turn s[0]==s[-1] and isPal(s[1:-1]), where s=string and isPal=s[1:-
  []
 
-[2 <./imgs/ex1.jpg>] (./notes.aux)
+[2 <./imgs/ex1.jpg>]
+Overfull \hbox (13.79091pt too wide) in paragraph at lines 49--50
+[]\OT1/cmr/m/n/10.95 Python achieves op-er-at-ing sys-tem in-de-pen-dence by ac-cess-ing files through
+ []
+
+[3] (./notes.aux)
 Package rerunfilecheck Info: File `notes.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 7574 strings out of 480477
- 113432 string characters out of 5897329
+ 7578 strings out of 480477
+ 113459 string characters out of 5897329
  420245 words of memory out of 5000000
  25186 multiletter control sequences out of 15000+600000
  410324 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,11n,66p,332b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,66p,418b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on notes.pdf (2 pages, 158223 bytes).
+Output written on notes.pdf (3 pages, 161240 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
