@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1645371648 "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/3-Functions, Scoping and Abstraction/notes.tex" "notes.pdf" "notes" 1645371649
-  "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/3-Functions, Scoping and Abstraction/notes.tex" 1645371648 4312 fb19a7d8d856dba6cf19628145cdd069 ""
+["pdflatex"] 1645375211 "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/3-Functions, Scoping and Abstraction/notes.tex" "notes.pdf" "notes" 1645375211
+  "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/3-Functions, Scoping and Abstraction/notes.tex" 1645375210 4463 834d075276579066f729ad29ecc93629 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1630643463 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1625726010 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1625726010 1536 05df9db6aeccc4eea94fec15c9024f79 ""
@@ -54,6 +54,7 @@
   "c:/tools/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1625726018 3034 7076a43c47446700860d2aebb65ebed5 ""
   "c:/tools/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1625726018 2459 f9456a3cd988c2865f64e327cdb6f7a0 ""
   "c:/tools/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty" 1625726018 5049 969aec05d5f39c43f8005910498fcf90 ""
+  "c:/tools/TinyTeX/texmf-dist/tex/latex/base/omscmr.fd" 1625726018 2469 ed49302eacbaebdd899d39dedcd25393 ""
   "c:/tools/TinyTeX/texmf-dist/tex/latex/base/size11.clo" 1625726018 8464 efc3cbec9b4f1a5665635866ad7e7dba ""
   "c:/tools/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1625726012 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "c:/tools/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1625726014 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -81,11 +82,11 @@
   "c:/tools/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1625726052 1420077 23c98876064a4b02875c8d357742bee0 ""
   "c:/tools/TinyTeX/texmf.cnf" 1625725976 877 ff6679c7ec2843f2455741ca309c7a7c ""
   "imgs/ex1.jpg" 1644918977 40022 7cc5e76397a1c3ee6777bd2b54f18b1d ""
-  "notes.aux" 1645371649 897 e971ac2990747c863b6be057504ec3e2 "pdflatex"
-  "notes.out" 1645371649 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "notes.tex" 1645371648 4312 fb19a7d8d856dba6cf19628145cdd069 ""
+  "notes.aux" 1645375211 897 e971ac2990747c863b6be057504ec3e2 "pdflatex"
+  "notes.out" 1645375211 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "notes.tex" 1645375210 4463 834d075276579066f729ad29ecc93629 ""
   (generated)
+  "notes.pdf"
+  "notes.out"
   "notes.aux"
   "notes.log"
-  "notes.out"
-  "notes.pdf"

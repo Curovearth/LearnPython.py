@@ -465,6 +465,10 @@ INPUT ./imgs/ex1.jpg
 INPUT ./imgs/ex1.jpg
 INPUT c:/tools/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT c:/tools/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/tools/TinyTeX/texmf-dist/tex/latex/base/omscmr.fd
+INPUT c:/tools/TinyTeX/texmf-dist/tex/latex/base/omscmr.fd
+INPUT c:/tools/TinyTeX/texmf-dist/tex/latex/base/omscmr.fd
+INPUT c:/tools/TinyTeX/texmf-dist/tex/latex/base/omscmr.fd
 INPUT notes.aux
 INPUT ./notes.out
 INPUT ./notes.out
