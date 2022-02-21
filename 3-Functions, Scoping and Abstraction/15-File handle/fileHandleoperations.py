@@ -1,0 +1,7 @@
+fh = open('operations','r')
+print('Read =',fh.read())
+print('ReadLine =',fh.readline())
+print('Readlines =',fh.readlines())
+print('Readlines =',fh.write(s))
+print('Readlines =',fh.writeLines(S))
+fh.close()
