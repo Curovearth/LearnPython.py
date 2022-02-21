@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
 
 \title{Notes on Chapter 4 - Functions, Scoping and Abstraction}
 \author{Swarup Tripathy \thanks{John V Guttag}}
@@ -46,7 +47,11 @@
         \item There is a variant of the \textit{import} statement that allows the importing program to omit the module name when accessing names defined inside the imported module. Executing the statement \textit{from M import *} creates bindings in the current scope to all objects defined within 
         M, but not to M itself. 
         \item In simple language, when you directly use \textit{import M} in order to access the names you'll be requiring to use the module name every time whereas if you just use \textit{from M import *} the names are accessible freely.
-        \item Python achieves operating system independence by accessing files through something called a \textbf{file handle.}
-        \item In python string, the escape character "\textbackslash" is used to indicate that the next character should be treated in a special way.
+        \begin{itemize}
+            \item Python achieves operating system independence by accessing files through something called a \textbf{file handle.}
+            \item In python string, the escape character "\textbackslash" is used to indicate that the next character should be treated in a special way.
+            \item 'r' for reading the data, 'w' for writing the data, 'a' for appending new data with the existing data.
+        \end{itemize}
+        
     \end{enumerate}
 \end{document}
