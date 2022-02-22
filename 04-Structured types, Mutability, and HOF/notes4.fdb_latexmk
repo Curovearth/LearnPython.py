@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1645536526 "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/04-Structured types, Mutability, and HOF/notes4.tex" "notes4.pdf" "notes4" 1645536527
-  "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/04-Structured types, Mutability, and HOF/notes4.tex" 1645536526 2080 9bca46ec575d2b6ba2b0993bcde7e782 ""
+["pdflatex"] 1645550890 "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/04-Structured types, Mutability, and HOF/notes4.tex" "notes4.pdf" "notes4" 1645550891
+  "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/04-Structured types, Mutability, and HOF/notes4.tex" 1645550890 3327 43a7426e98aee7185c4779077f9a5f48 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1630643463 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1625726010 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1625726010 1536 05df9db6aeccc4eea94fec15c9024f79 ""
@@ -82,11 +82,11 @@
   "c:/tools/TinyTeX/texmf.cnf" 1625725976 877 ff6679c7ec2843f2455741ca309c7a7c ""
   "imgs/1.png" 1645536143 32006 239f63b7eddcf7976c8f6188ac180436 ""
   "imgs/2.png" 1645536160 44971 7dcc508d0c0989e51d2b573888a34379 ""
-  "notes4.aux" 1645536527 686 4ce905362b6645b598ea182482e9aeed "pdflatex"
-  "notes4.out" 1645536527 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "notes4.tex" 1645536526 2080 9bca46ec575d2b6ba2b0993bcde7e782 ""
+  "notes4.aux" 1645550891 686 4ce905362b6645b598ea182482e9aeed "pdflatex"
+  "notes4.out" 1645550891 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "notes4.tex" 1645550890 3327 43a7426e98aee7185c4779077f9a5f48 ""
   (generated)
+  "notes4.log"
+  "notes4.out"
   "notes4.pdf"
   "notes4.aux"
-  "notes4.out"
-  "notes4.log"

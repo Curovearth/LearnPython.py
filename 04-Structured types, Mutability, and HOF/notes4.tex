@@ -38,5 +38,20 @@
             \centering
             \includegraphics[width=5cm]{imgs/1.png}
         \end{itemize}
+        \item Python supports creation of anonymous functions (i.e., functions which are not bound to a name), using the reserved word \textbf{lambda}. The general form of a lambda expression is
+        \begin{verbatim}
+            lambda <sequence of variable names>: <expression>
+
+        L=[]
+        for i in map(lambda x,y: x**y,[1,2,3,4],[3,2,1,0]):
+            L.append(i)
+        print(L)
+
+        prints out [1, 4, 3, 1]
+        \end{verbatim}
+        \item IMMUTABLE datatypes (e.g. int, float, bool, str, tuple, unicode) cant be changed after they are created, 
+        \item MUTABLE datatypes (e.g. list, set, dict, byte array) can be changed. An object whose internal state can be changed is mutable
+        \item In python programming, the second name given to a piece of data is known as an alias. Aliasing happens when the value of one variable is assigned to another variable because variables are just names that store references to actual value.
+        reference: \href{https://www.codesansar.com/python-programming/aliasing.htm#:~:text=In%20python%20programming%2C%20the%20second,store%20references%20to%20actual%20value.&text=So%2C%20both%20variables%20point%20to,same%20string%20object%20'PYTHON'.}{Aliasing}
     \end{enumerate}
 \end{document}
