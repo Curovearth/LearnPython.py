@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.8)  21 FEB 2022 21:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.8)  22 FEB 2022 18:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -264,25 +264,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 31.
+<imgs/2.png, id=4, 308.352pt x 218.0145pt>
+File: imgs/2.png Graphic file (type png)
+<use imgs/2.png>
+Package pdftex.def Info: imgs/2.png  used on input line 34.
+(pdftex.def)             Requested size: 128.0374pt x 90.52754pt.
+<imgs/1.png, id=6, 310.15875pt x 196.93575pt>
+File: imgs/1.png Graphic file (type png)
+<use imgs/1.png>
+Package pdftex.def Info: imgs/1.png  used on input line 39.
+(pdftex.def)             Requested size: 142.26378pt x 90.3301pt.
 [1
 
-{c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./notes4.aux)
+{c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./imgs/2.png>] [2 <./imgs/1.png>] (./notes4.aux)
 Package rerunfilecheck Info: File `notes4.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8016 strings out of 480477
- 120062 string characters out of 5897329
- 427700 words of memory out of 5000000
- 25635 multiletter control sequences out of 15000+600000
- 409003 words of font info for 45 fonts, out of 8000000 for 9000
+ 8040 strings out of 480477
+ 120362 string characters out of 5897329
+ 433700 words of memory out of 5000000
+ 25652 multiletter control sequences out of 15000+600000
+ 409787 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,11n,66p,336b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on notes4.pdf (1 page, 80127 bytes).
+ 60i,11n,66p,336b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on notes4.pdf (2 pages, 164579 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 80 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

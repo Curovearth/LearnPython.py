@@ -21,5 +21,22 @@
             \item The statement a,b,c = 'xyz' will bind x to a, y to b and z to c.
         \end{itemize}
         \item Built-in-function \textbf{id}, which returns a unique integer identifier for an object.
+        \item Deep and Shallow copy in python
+        \begin{verbatim}
+            import copy
+            copy.copy(x)        #shallow copy
+            copy.deepcopy(x)    #deep copy
+        \end{verbatim}
+        \begin{itemize}
+            \item Shallow Copy $\rightarrow$ A shallow copy creates a new object which stores the reference of the original elements.
+            So, a shallow copy doesn't create a copy of nested objects, instead it just copies the reference of nested objects. This means, a copy process does not recurse or create copies of nested objects itself.
+            \centering
+            \includegraphics[width=4.5cm]{imgs/2.png}
+
+            \item Deep Copy $\rightarrow$ A deep copy creates a new object and recursively adds the copies of nested objects present in the original elements.
+            The deep copy creates independent copy of original object and all its nested objects.
+            \centering
+            \includegraphics[width=5cm]{imgs/1.png}
+        \end{itemize}
     \end{enumerate}
 \end{document}
