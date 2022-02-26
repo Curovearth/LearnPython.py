@@ -25,12 +25,32 @@
         \end{itemize}
         \item \textbf{Glass Box Testing} \href{https://www.youtube.com/watch?v=cpJ5AjRl8gI}{Intrigano}
         \begin{itemize}
-            \item Black box is referred to a box covered in Black such that we can't see inside of it.
-            \item Here the test suite is designed without actually looking at the code.
+            \item Complementary to black box testing.
+            \item Since the name itself implies we can actually see inside the box or the code.
             \begin{enumerate}
-                \item Can be done by someone other than implementer
-                \item Will avoid inherent biases of implementer, exposing potential bugs more easily
-                \item Testing designed without knowledge of implementation, thus can be reused even if implementation changed.
+                \item Use code directly to guide design of test cases
+                \item Glass box test suite is \textbf{path-complete} if every potential path through the code is tested atleast once.
+                \begin{enumerate}
+                    \item Not always possible if loop can be exercised arbitrary times, or recursion can be arbitrarily deep.
+                \end{enumerate}
+                \item even a path complete test suite can have a bug, depending on choice of samples. 
+            \end{enumerate}
+            \item Rules of thumb for glass box testing
+            \begin{enumerate}
+                \item exercise both branches of all if statements
+                \item ensure each except clause is executed
+                \item for each for loop, have tests where
+                \begin{enumerate}
+                    \item loop is not entered
+                    \item body of loop executed exactly once
+                    \item body of loop executed more than once
+                \end{enumerate}
+                \item For each While loop
+                \begin{enumerate}
+                    \item same cases as for loops
+                    \item cases that catch all ways to exit loop
+                \end{enumerate}
+                \item For recursive functions, test with no recursive calls, once recursive call, and more than one recursive call.
             \end{enumerate}
         \end{itemize}
     \end{enumerate}
