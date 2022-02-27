@@ -1,44 +1,27 @@
+# def get_integer_value():
+#   user_value = input("Enter an integer: ")
+#   print(type(user_value))
+#   try:
+#     return int(user_value)
+#   except ValueError:
+#     print(f"{user_value} is not a valid integer. Please try again.")
+#     return get_integer_value()
 
-def highestMultiple(a):
-    # mul=1
-    # for k in range(1,21):
-    # mul = mul*k
-    mul=1
-    for k in range(1,a+1):
-        mul = mul*k
-    return mul
 
+# if __name__ == "__main__":
+#   print(f"You have inserted: {get_integer_value()}")
 
-def smallestMultiple(x):
-    
-    list = [l for l in range(1,x+1)]
-    i=0
-    while i<highestMultiple(x):
-        commonMult = 210
-        if x==0:
-            return 0
-        elif x<=7:
-            if x==6:
-                return highestMultiple(5)
-            elif x==7:
-                return highestMultiple(5)*7
-            else:
-                return highestMultiple(x)
-        else:
-            # i=0
-            i = i + commonMult
-            final=[]
-            for j in range(len(list)):
-                if i%list[j]==0:
-                    final.append(i)
-                else:
-                    continue
-                
-            if len(final)==x:
-                return final[1]
-        
-def testCode():
-    for k in range(20):
-        print(smallestMultiple(k),end=" ")
+def sumDigits(s):
+    """Assumes s is a string
+       Returns the sum of the decimal digits in s
+       For example is s is 'a2b3c' it returns 5"""
+    total = 0
+    for i in s:
+        try:
+            total += int(i)
+            print(total)
+        except ValueError:
+            print("Ignoring exception")
+    return total
 
-testCode()
+sumDigits('a2b3c')

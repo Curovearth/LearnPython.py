@@ -1,6 +1,6 @@
-from operator import truediv
-
-
+'''
+@author: Swarup Tripathy
+'''
 def isPal(x):
     temp =x
     # temp = x[:]       # correct way - causes a copy of x to be made
