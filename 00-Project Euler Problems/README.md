@@ -1,4 +1,4 @@
-<h2>Following are the answers to the Project Euler problems</h2>
+<h2><img src="https://github.com/Curovearth/LearnPython.py/blob/main/00-Project%20Euler%20Problems/imgs/pe-right.png" width=100/>Following are the answers to the Project Euler problems</h2>
 
 <img align=right src="https://github.com/Curovearth/LearnPython.py/blob/main/00-Project%20Euler%20Problems/imgs/runTime.py.png" width=580/>
 
