@@ -1,8 +1,6 @@
 <h2>Following are the answers to the Project Euler problems</h2>
 
-<div align=right>
-    <img src="imgs/runtime.py">
-</div>
+<img align=right src="https://github.com/Curovearth/LearnPython.py/blob/main/00-Project%20Euler%20Problems/imgs/runTime.py.png" width=580/>
 
 | Problem Number | Answer | My comments |
 | --- | --- | --- |
