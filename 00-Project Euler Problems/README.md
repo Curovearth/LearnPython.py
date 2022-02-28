@@ -1,4 +1,4 @@
-<h2>Following are the answers to the Project Euler problems <img src="https://github.com/Curovearth/LearnPython.py/blob/main/00-Project%20Euler%20Problems/imgs/pe-right.png" width=70/></h2>
+<h2><img src="https://github.com/Curovearth/LearnPython.py/blob/main/00-Project%20Euler%20Problems/imgs/pe-right.png" width=100/>Following are the answers to the Project Euler problems</h2>
 
 <img align=right src="https://github.com/Curovearth/LearnPython.py/blob/main/00-Project%20Euler%20Problems/imgs/runTime.py.png" width=580/>
 
@@ -13,4 +13,5 @@
 | 007 | 104743 | Very Slow |
 | 008 | 23514624000 | Fast |
 | 009 | 31875000 | 7.0174736s |
+| 010 | 142913828922 | Fast |
 
