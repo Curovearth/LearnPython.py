@@ -47,17 +47,9 @@ grid =[
 	[ 1,70,54,71,83,51,54,69,16,92,33,48,61,43,52, 1,89,19,67,48],
 ]
 
-list=[]
-len1 = len(grid)
-for i in range(len1):
-	len2 = len(grid[i])
-	for j in range(len2):
-		sum=0
-		try:
-			for k in range(j,j+4):
-				sum = sum + grid[i][j][k]
-		except IndexError:
-			pass
-		list.append(sum)
+for i in range(len(grid)):
+	for j in range(len(grid[i])):
+		for k in range(j,j+4):
+			sum = grid[i][j]
 		
 # NOT DONE
