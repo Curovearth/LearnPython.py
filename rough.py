@@ -3,6 +3,7 @@ grid =[
 	[4,7,2,3,4,1],
 	[9,3,6,7,0,2],
 	[7,8,7,2,3,8],
+	[1,2,3,4,5,6],
 ]
 right_left_list = []
 up_down_list = []
@@ -47,7 +48,10 @@ for m in range(len(grid[0])//2):
 	#############################################
 	sum3=0
 	for i in range(len(grid)):
-		sum3 = sum3 + grid[i][i+m]
-		print(sum3, end=" ")
+		try:
+			sum3 = sum3 + grid[i][i+m]
+			print(sum3, end=" ")
+		except IndexError:
+			pass
 	print('\n')
 
