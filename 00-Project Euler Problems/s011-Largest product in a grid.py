@@ -47,9 +47,36 @@ grid =[
 	[ 1,70,54,71,83,51,54,69,16,92,33,48,61,43,52, 1,89,19,67,48],
 ]
 
-for i in range(len(grid)):
-	for j in range(len(grid[i])):
-		for k in range(j,j+4):
-			sum = grid[i][j]
-		
-# NOT DONE
+list_right_left = []
+list_up_down = []
+# list_diagonal = []
+
+# --------- RIGHT LEFT -------------------------------------
+def right_left(grid):
+	for i in range(len(grid)):
+		try:
+			for j in range(len(grid[i])):
+				sum_right_left=1
+				for k in range(j,j+4):
+					# print(sum_right_left,'+',grid[i][k])
+					sum_right_left = sum_right_left * grid[i][k]
+				list_right_left.append(sum_right_left)
+		except IndexError:
+			continue
+
+# --------- UP DOWN ----------------------------------------
+def up_down(grid):
+	for i in range(len(grid)):
+		try:
+			for a in range(len(grid)):
+				sum_up_down=1
+				for b in range(a,a+4):
+					# print(sum_up_down,'+',grid[k][i])
+					sum_up_down = sum_up_down * grid[b][i]
+				list_up_down.append(sum_up_down)
+		except IndexError:
+			continue
+
+if __name__ == '__main__':
+	print(right_left(grid))
+	print(up_down(grid))
