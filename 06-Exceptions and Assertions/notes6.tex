@@ -21,6 +21,38 @@
             \item NameError
             \item ValueError
         \end{itemize}
-        \item 
+        \item Given the following code 
+        \begin{verbatim}
+            def readVal(valType, requestMsg, errorMsg):
+            while True:
+                val = input(requestMsg+' ')
+                try:
+                    return valType(val)
+                except ValueError:
+                    print(val,errorMsg)
+        
+            readVal(int, 'enter an integer:','is not an integer')
+        \end{verbatim}
+        The function readVal is \textbf{Polymorphic}, i.e., it works for arguments of many different types. Such functions are easy to write in Python, since types are First Class Objects.
+
+        What are \textbf{First Class Objects?} \href{https://stackoverflow.com/questions/245192/what-are-first-class-objects}{First Class Objects in Python}
+        
+        A first class object is an entity that can be dynamically created, destroyed, passed to a function, returned as a value, and have all the rights as other variables in the programming language have. 
+        Depending on the language this can imply
+
+        \begin{itemize}
+            \item being expressible as an anonymous literal value
+            \item being storable in variables
+            \item being storable in data structures
+            \item having an intrinsic identity (independent of any given name)
+            \item being comparable for equality with other entities
+            \item being passable as a parameter to a procedure/function
+            \item being returnable as the result of a procedure/function
+            \item being constructible at runtime
+            \item being printable
+            \item being readable
+            \item being transmissible among distributed processes
+            \item being storable outside running processes
+        \end{itemize}
     \end{enumerate}
 \end{document}
