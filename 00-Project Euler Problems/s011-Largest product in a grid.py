@@ -49,7 +49,8 @@ grid =[
 
 list_right_left = []
 list_up_down = []
-# list_diagonal = []
+list_rdiagonal = []
+list_ldiagonal = []
 
 # --------- RIGHT LEFT -------------------------------------
 def right_left(grid):
@@ -77,6 +78,43 @@ def up_down(grid):
 		except IndexError:
 			continue
 
-if __name__ == '__main__':
-	print(right_left(grid))
-	print(up_down(grid))
+# --------- R DIAGONAL (\) --------------------------------------
+def rdiagonal(grid):
+	for i in range(len(grid)-4):	# checks for all the list rows
+		sum = 1
+		for j in range(len(grid[i])-3):
+			sum = 1
+			for k in range(4):
+				# print(sum,'*',grid[i+k][j+k])
+				sum = sum * grid[i+k][j+k]
+			list_rdiagonal.append(sum)
+			# print(sum)
+
+# --------- DIAGONAL (/) --------------------------------------
+def ldiagonal(grid):
+	for i in range(len(grid)-4):	# checks for all the list rows
+		sum = 1
+		for j in range(len(grid[i])-3):
+			sum = 1
+			for k in range(4):
+				# print(sum,'*',grid[i+k][j+k])
+				sum = sum * grid[i+k][j-k]
+			list_ldiagonal.append(sum)
+			# print(sum)
+
+right_left(grid)
+up_down(grid)
+rdiagonal(grid)
+ldiagonal(grid)
+
+# print(max(list_rdiagonal))
+# print(max(list_ldiagonal))
+final_list = []
+
+final_list.append(max(list_right_left))
+final_list.append(max(list_up_down))
+final_list.append(max(list_rdiagonal))
+final_list.append(max(list_ldiagonal))
+
+print(final_list)
+print(max(final_list))
