@@ -101,8 +101,14 @@ def up_down(grid):
 # --------- DIAGONAL --------------------------------------
 def diagonal(grid):
 	for i in range(len(grid)-1):	# checks for all the list rows
-		for l in range(i,i+2):		# check for the next rows from i
-			sum = sum + grid[l][]
+		sum = 1
+		for j in range(len(grid[i])-1):
+			sum = 1
+			for k in range(2):
+				# print(sum,'*',grid[i+k][j+k])
+				sum = sum * grid[i+k][j+k]
+				
+			# print(sum)
 
 # right_left(grid)
 # up_down(grid)
