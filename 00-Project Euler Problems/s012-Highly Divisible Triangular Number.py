@@ -34,8 +34,26 @@ sum of natural numbers = [n*(n+1)]/2
 WRITING THE CODE!
 - while loop(since we don't know the number)
 - feeding the numbers to [n*(n+1)]/2 to cal the sum
-- to cal the divisors(to be prime) for the sum and store it in a list
+- to cal the divisors for the sum and store it in a list
 - cal the length of list 
 - one which exceeds or has 500 divisors should be the first one
 '''
+i=100000
+while(i<100001):
+    divisors_list = []
+    # print('val of i=',i)
+    sum = int((i*(i+1))/2)
+    # print('sum is', sum)
+    for j in range(1,sum+1):
+        if sum%j == 0:
+            divisors_list.append(j)
+        else:
+            continue
+    # print('list is',divisors_list)
+    length = len(divisors_list)
+    print('len is',length)
+    if length >= 500:
+        break
+    i = i+1
 
+print(sum)
