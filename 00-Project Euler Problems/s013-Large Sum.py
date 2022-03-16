@@ -2,7 +2,7 @@ import timeit
 
 start = timeit.default_timer()
 
-file = open('C:/Users/iwill/Desktop/github/0-Python Again/Pyrup/ksjffljsk','r')        # ksjffljsk is the file name where i have pasted the entire digits
+file = open('C:/Users/iwill/Desktop/github/0-Python Agai/Pyrup/00-Project Euler Problems/s013','r')        # ksjffljsk is the file name where i have pasted the entire digits
 listLines = file.readlines()        # reading all the lines 
 totalSum = sum(int(i) for i in listLines)       # summing up all the individual 50 digit numbers
 print(totalSum)                     
