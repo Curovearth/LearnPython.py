@@ -2,7 +2,7 @@
 
 <img align=right src="https://github.com/Curovearth/LearnPython.py/blob/main/00-Project%20Euler%20Problems/imgs/runTime.py.png" width=570/>
 
-| Problem Number | Answer | My comments |
+| Prob. Number | Answer | My comments |
 | --- | --- | --- |
 | 001 | 233168 | Fast |
 | 002 | 4613732 | Fast |
