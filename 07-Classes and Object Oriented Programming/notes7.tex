@@ -4,7 +4,7 @@
 \usepackage{hyperref}
 \usepackage[a4paper, total={6in, 8in}]{geometry}
 
-\title{Notes on Chapter 7 - Exceptions and Assertions}
+\title{Notes on Chapter 8 - Classes and Object Oriented Programming}
 \author{Swarup Tripathy \thanks{John V Guttag}}
 \date{March 2022}
 
@@ -21,5 +21,22 @@
             \item Abstraction $\rightarrow$ Suppresses the detail
         \end{itemize}   
         \item One implements data abstractions using \textbf{classes}.     
+        \item [:] is a slice syntax for every element in the array.
+        \item When a function definition occurs within a class definition, the defined function is called as \textbf{method} and is associated with the class. These methods are sometimes referred to as \textbf{method attributes} of the class.
+        \item Class supports 2 kinds of operations
+        \begin{itemize}
+            \item \textbf{Instantiation} is used to create instances of the class. 
+            
+            For ex., the statement s = IntSet() creates a new object of type IntSet. This object is called an Instance of IntSet.
+            \item \textbf{Attribute References} use dot notations to access attributes associated with the class. For ex., s.member refers to the method member associated with the instance s of type IntSet.
+        \end{itemize}
+        \item Whenever a class is instantiated, a call is made to the \textunderscore\textunderscore init\textunderscore\textunderscore method defined in that class.
+        \begin{verbatim}
+            s=IntSet()
+            s.insert(3)
+            print(s.member(3))
+        \end{verbatim}
+        creates a new instance of IntSet, inserts the integer 3 into that IntSet, and then prints true.
+        \item When data attributes are associated with a class we call them \textbf{Class variables}. When they are associated with an instance we call them \textbf{instance variables}.
     \end{enumerate}
 \end{document}
