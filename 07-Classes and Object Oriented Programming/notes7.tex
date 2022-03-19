@@ -38,5 +38,25 @@
         \end{verbatim}
         creates a new instance of IntSet, inserts the integer 3 into that IntSet, and then prints true.
         \item When data attributes are associated with a class we call them \textbf{Class variables}. When they are associated with an instance we call them \textbf{instance variables}.
+        \item All instances of user-defined classes are hashable, and therefore can be used as dictionary keys.
+        \item What actually \textbf{Hashable} means in python? Ref: \href{https://www.geeksforgeeks.org/why-and-how-are-python-functions-hashable/}{Geeks for Geeks}
+        \begin{itemize}
+            \item hashable is a feature of Python objects that tells if the object has a hash value or not.
+            \item If the object has a hash value then it can be used as a key for a dictionary or as an element in a set.
+            \item An object is hashable if it has a hash value that does not change during its entire lifetime.
+            \item Python has a built-in hash method ( \textunderscore\textunderscore hash\textunderscore\textunderscore() ) that can be compared to other objects.
+            \item if the hashable objects are equal then they have the same hash value.
+            \item All immutable built-in objects in Python are hashable like tuples while the mutable containers like lists and dictionaries are not hashable. An example below
+            \begin{verbatim}
+        t1 = (1, 5, 6)
+        t2 = (1, 5, 6)
+        # show the id of object
+        print(id(t1))
+        print(id(t2))
+        ######## output ########
+        140040984150664
+        140040984150880
+            \end{verbatim}
+        \end{itemize}
     \end{enumerate}
 \end{document}

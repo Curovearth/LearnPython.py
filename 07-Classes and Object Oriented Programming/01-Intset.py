@@ -31,13 +31,13 @@ class IntSet(object):
         Nothing can be assumed about the order of the elements'''
         return self.vals[:]
 
-    def __str__(self):
-        '''Returns a string representation of self'''
-        self.vals.sort()
-        result = ''
-        for e in self.vals:
-            result = result + str(e) + ','
-        return '{' + result[:-1] + '}' # omits trailing comma
+    # def __str__(self):
+    #     '''Returns a string representation of self'''
+    #     self.vals.sort()
+    #     result = ''
+    #     for e in self.vals:
+    #         result = result + str(e) + ','
+    #     return '{' + result[:-1] + '}' # omits trailing comma
 
 s = IntSet()
 l=[1,2,3,4,5,6,7,8,9]
@@ -47,3 +47,6 @@ print(s.member(4))
 print(s.member(10))
 print(s.remove(5))
 print(s.getMembers())
+
+for g in s.getMembers():
+    print(type(g))
