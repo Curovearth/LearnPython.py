@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1647690081 "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/07-Classes and Object Oriented Programming/notes7.tex" "notes7.pdf" "notes7" 1647690083
-  "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/07-Classes and Object Oriented Programming/notes7.tex" 1647690081 3909 277dd7a7d8fe696ee96590a8dd25ea5b ""
+["pdflatex"] 1647765225 "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/07-Classes and Object Oriented Programming/notes7.tex" "notes7.pdf" "notes7" 1647765226
+  "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/07-Classes and Object Oriented Programming/notes7.tex" 1647765224 4197 d47c675274d6acc6a0f670ee9c30e115 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1630643463 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1625726010 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1625726010 1536 05df9db6aeccc4eea94fec15c9024f79 ""
@@ -80,11 +80,11 @@
   "c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1630643491 294230 165429902c3d04837b16d2425bc0e2f5 ""
   "c:/tools/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1625726052 1420077 23c98876064a4b02875c8d357742bee0 ""
   "c:/tools/TinyTeX/texmf.cnf" 1625725976 877 ff6679c7ec2843f2455741ca309c7a7c ""
-  "notes7.aux" 1647690082 686 4ce905362b6645b598ea182482e9aeed "pdflatex"
-  "notes7.out" 1647690082 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "notes7.tex" 1647690081 3909 277dd7a7d8fe696ee96590a8dd25ea5b ""
+  "notes7.aux" 1647765225 686 4ce905362b6645b598ea182482e9aeed "pdflatex"
+  "notes7.out" 1647765225 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "notes7.tex" 1647765224 4197 d47c675274d6acc6a0f670ee9c30e115 ""
   (generated)
-  "notes7.aux"
   "notes7.pdf"
   "notes7.out"
   "notes7.log"
+  "notes7.aux"
