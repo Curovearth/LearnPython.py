@@ -5,4 +5,4 @@ Just practice for me !
 - [ ] To do tensegrity one
 - [ ] Space applications
 - [ ] Quantum
-- [ ] 
+- [ ] Look out for business requirements in the field of IoT
