@@ -6,3 +6,4 @@ Just practice for me !
 - [ ] Space applications
 - [ ] Quantum
 - [ ] Look out for business requirements in the field of IoT
+- [ ] follow organisations
