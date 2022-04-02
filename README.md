@@ -6,3 +6,5 @@ Just practice for me !
 - [ ] Space applications
 - [ ] Quantum
 - [ ] Look out for business requirements in the field of IoT
+- [ ] python from tomorrow
+- [ ] drone requirements and coding
