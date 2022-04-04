@@ -7,3 +7,4 @@ Just practice for me !
 - [ ] Look out for business requirements in the field of IoT
 - [ ] python from tomorrow
 - [ ] drone requirements and coding
+- [ ] Tensegrity physics engine
