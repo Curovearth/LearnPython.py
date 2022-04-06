@@ -9,8 +9,18 @@ class Employee:
         return self.first_name
     def get_last_name(self):
         return self.last_name
+    def get_full_name(self):
+        return '{} {}'.format(self.first_name,self.last_name)
     def get_salary(self):
         return self.salary
     
-e = Employee('swarup','tripathy',1000)
+class Developer(Employee):
+    pass
+
+e = Developer('swarup','tripathy',1000)
+e = Developer('John','Guttag',1000)
 print(e.email)
+print(e.get_first_name())
+print(e.get_last_name())
+print(e.get_full_name())
+print(e.get_salary())
