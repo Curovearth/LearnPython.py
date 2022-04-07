@@ -481,8 +481,8 @@ INPUT c:/tools/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT c:/tools/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT c:/tools/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT c:/tools/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/tools/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT notes7.aux
 INPUT ./notes7.out
 INPUT ./notes7.out
