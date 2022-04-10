@@ -1,5 +1,2 @@
-def total_fruits(**kwargs):
-  print(kwargs, type(kwargs))
-
-total_fruits(banana=5,mango=7,apple=8)
-
+list_2 = [x for x in range(1, 4+1)]
+print(list_2)
