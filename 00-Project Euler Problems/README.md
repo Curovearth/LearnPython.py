@@ -1,6 +1,16 @@
+<h2>Mathematics References!</h2>
+<details>
+<summary>Curious Enough?</summary>
+<br>
+
+- https://www.robertdickau.com/lattices.html - (Lattice path and catalan)
+- https://brilliant.org/wiki/catalan-numbers/ - (Catalan numbers ) 
+
+
 <h2>Following are the answers to the Project Euler problems <img src="https://github.com/Curovearth/LearnPython.py/blob/main/00-Project%20Euler%20Problems/imgs/pe-right.png" width=60/></h2>
 
 <img align=right src="https://github.com/Curovearth/LearnPython.py/blob/main/00-Project%20Euler%20Problems/imgs/runTime.py.png" width=570/>
+
 
 | Prob. Number | Answer | My comments |
 | --- | --- | --- |
