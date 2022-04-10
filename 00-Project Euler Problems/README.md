@@ -1,11 +1,14 @@
 <h2>Mathematics References!</h2>
 <details>
-<summary>Curious Enough?</summary>
+<summary><b><i>Curious Enough?</i></b></summary>
 <br>
 
-- https://www.robertdickau.com/lattices.html - (Lattice path and catalan)
-- https://brilliant.org/wiki/catalan-numbers/ - (Catalan numbers ) 
+| TOPIC | SITE |
+| --- | --- |
+| Lattice Path and Catalan Nos. | https://www.robertdickau.com/lattices.html |
+| Catalan Nos. | https://brilliant.org/wiki/catalan-numbers/ |
 
+</details>
 
 <h2>Following are the answers to the Project Euler problems <img src="https://github.com/Curovearth/LearnPython.py/blob/main/00-Project%20Euler%20Problems/imgs/pe-right.png" width=60/></h2>
 
