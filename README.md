@@ -8,3 +8,4 @@
 - [ ] python from tomorrow
 - [ ] drone requirements and coding
 - [ ] Tensegrity physics engine
+- [ ] To update Mathematics notes for the same
