@@ -8,3 +8,5 @@
 - [ ] drone requirements and coding
 - [ ] Tensegrity physics engine
 - [ ] To update Mathematics notes for the same
+- [ ] Neuromatch Academy course update
+- [ ] MIT course update on deep learning
