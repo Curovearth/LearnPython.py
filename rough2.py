@@ -1,3 +1,2 @@
-import datetime
-
-print(datetime.date.today())
+name='swaruptripathy'
+print(name[:])
