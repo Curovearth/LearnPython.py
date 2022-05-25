@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.8)  24 MAY 2022 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.8)  25 MAY 2022 09:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -268,23 +268,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 20.
 [1
 
-{c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./notes7.aux)
+{c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+Overfull \hbox (13.40927pt too wide) in paragraph at lines 116--116
+ []\OT1/cmtt/m/n/10.95 # AttributeError: 'infoHiding' object has no attribute '__printInvisible'[] 
+ []
+
+[4] (./notes7.aux)
 Package rerunfilecheck Info: File `notes7.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8040 strings out of 480477
- 120295 string characters out of 5897329
+ 8043 strings out of 480477
+ 120315 string characters out of 5897329
  433682 words of memory out of 5000000
  25642 multiletter control sequences out of 15000+600000
  410133 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,11n,66p,379b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on notes7.pdf (3 pages, 129230 bytes).
+Output written on notes7.pdf (4 pages, 132329 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 24 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

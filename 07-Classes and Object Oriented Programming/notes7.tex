@@ -88,5 +88,31 @@
         index = name.rindex(' ')    # index = 6
         index2 = name.rindex('a')   # index2 = 11
         \end{verbatim}
+        \item \textbf{Encapsulation} $\rightarrow$ Bundling together of data attributes and the methods for operating on them.
+        \item \textbf{Information Hiding} $\rightarrow$ one of the keys to modularity. Programmers can make the attributes of a class private, so that clients of the class can access the data only through the object's methods.
+        When the name of an attribute starts with \textunderscore\textunderscore but does not end with \textunderscore\textunderscore, that attribute is not visibile outside the class.
+        \begin{verbatim}
+class infoHiding():
+def __init__(self):
+    self.visible = 'Look at me'
+    self.__alsoVisisble__ = 'Look at me too'
+    self.__invisible = 'Don\'t look at me directly'
+
+def printVisible(self):
+    print(self.visible)
+def printInvisible(self):
+    print(self.__invisible)
+def __printInvisible(self):
+    print(self.__invisible)
+def __printInvisible__(self):
+    print(self.__invisible)
+
+s = infoHiding()
+s.printInvisible()      # Don't look at me directly
+s.printVisible()        # Look at me
+s.__printInvisible()    
+# AttributeError: 'infoHiding' object has no attribute '__printInvisible'
+s.__printInvisible__()  # Don't look at me directly
+        \end{verbatim}
     \end{enumerate}
 \end{document}
