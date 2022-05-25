@@ -24,7 +24,7 @@ class Grades(object):
         
 
         self.grades[student.getIdNum()]=[]
-        self.isSorted = False
+        self.isSorted = False   # the instance variable isSorted is used to keep track of whether or not the list of students has been sorted since the last time a student was added to it.
     
     def addGrade(self,student,grade):
         try:
