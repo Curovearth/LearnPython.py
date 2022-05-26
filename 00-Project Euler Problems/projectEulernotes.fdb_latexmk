@@ -1,9 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1647711598 "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/00-Project Euler Problems/projectEulernotes.tex" "projectEulernotes.pdf" "projectEulernotes" 1647711599
-  "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/00-Project Euler Problems/projectEulernotes.tex" 1647711597 718 19a57dac6ebf2f384ab9f3f16e2399fa ""
+["pdflatex"] 1653544774 "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/00-Project Euler Problems/projectEulernotes.tex" "projectEulernotes.pdf" "projectEulernotes" 1653544774
+  "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/00-Project Euler Problems/projectEulernotes.tex" 1653544773 1270 58374440deb613b90eaa84450915086f ""
   "c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1630643463 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1625726010 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1625726010 1536 05df9db6aeccc4eea94fec15c9024f79 ""
+  "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1625726010 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1625726010 1528 abec98dbc43e172678c11b3b9031252a ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1625726010 1524 4414a8315f39513458b80dfc63bff03a ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1625726010 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -26,6 +27,7 @@
   "c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1625726006 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb" 1630643463 162624 077de688981132fb8efe9feeb03a998c ""
   "c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb" 1630643463 164227 41439fae96b3b30186924e9dd2fcff30 ""
+  "c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb" 1630643463 145929 5c9aebea9ba6e33fc93158c04a3bdcd8 ""
   "c:/tools/TinyTeX/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1625726008 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "c:/tools/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1625726008 40635 c40361e206be584d448876bba8a64a3b ""
   "c:/tools/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty" 1625726008 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -74,9 +76,9 @@
   "c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1630643491 294230 165429902c3d04837b16d2425bc0e2f5 ""
   "c:/tools/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1625726052 1420077 23c98876064a4b02875c8d357742bee0 ""
   "c:/tools/TinyTeX/texmf.cnf" 1625725976 877 ff6679c7ec2843f2455741ca309c7a7c ""
-  "projectEulernotes.aux" 1647711598 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
-  "projectEulernotes.out" 1647711598 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "projectEulernotes.tex" 1647711597 718 19a57dac6ebf2f384ab9f3f16e2399fa ""
+  "projectEulernotes.aux" 1653544774 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
+  "projectEulernotes.out" 1653544774 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "projectEulernotes.tex" 1653544773 1270 58374440deb613b90eaa84450915086f ""
   (generated)
   "projectEulernotes.aux"
   "projectEulernotes.pdf"
