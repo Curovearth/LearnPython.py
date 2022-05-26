@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.8)  26 MAY 2022 16:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.8)  26 MAY 2022 16:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -280,8 +280,13 @@ Overfull \hbox (29.23235pt too wide) in paragraph at lines 68--68
  []
 
 [2 <./imgs/bigO.png>]
-Overfull \hbox (6.2376pt too wide) in paragraph at lines 101--101
- []\OT1/cmtt/m/n/10.95 // Above: here runtime as discusses before could be O(n+n^2) but[] 
+Overfull \hbox (0.4889pt too wide) in paragraph at lines 83--83
+ []    \OT1/cmtt/m/n/10.95 // Above: complexity is not O(n^2) rather it will be O(a.b)[] 
+ []
+
+
+Overfull \hbox (23.48366pt too wide) in paragraph at lines 101--101
+ []\OT1/cmtt/m/n/10.95 // Above: here complexity as discusses before could be O(n+n^2) but[] 
  []
 
 [3] (./notes8.aux)
@@ -297,7 +302,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  60i,11n,66p,397b,678s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on notes8.pdf (3 pages, 1157006 bytes).
+Output written on notes8.pdf (3 pages, 1157010 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream

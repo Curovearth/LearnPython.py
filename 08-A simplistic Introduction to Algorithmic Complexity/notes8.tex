@@ -44,7 +44,7 @@
                 doStep1(); // O(a)
                 doStep2(); // O(b)
             }
-    // after adding their runtime it becomes O(a+b)
+    // after adding their complexity it becomes O(a+b)
                 \end{verbatim}
                 \item Drop Constants
                 \begin{verbatim}
@@ -55,7 +55,7 @@
                 for each e in array
                     max = MAX(e,max)
             }
-    // Above: individual runtime O(n) and O(n) and 
+    // Above: individual complexity O(n) and O(n) and 
     // as a whole remains O(n) and not O(2n) <= drop the constant 2.
 
             function minMax1(array){
@@ -64,7 +64,7 @@
                     min = MIN(e,min)
                     max = MAX(e,max)
             }
-    // Above: runtime altogether is O(n)
+    // Above: complexity altogether is O(n)
                 \end{verbatim}
                 \item Different inputs $\rightarrow$ Different Variables
                 \begin{verbatim}
@@ -79,7 +79,7 @@
                 }
                 return count
             }
-    // Above: runtime is not O(n^2) rather it will be O(a.b)
+    // Above: complexity is not O(n^2) rather it will be O(a.b)
                 \end{verbatim}
                 \item Drop non-dominate terms
                 \begin{verbatim}
@@ -95,7 +95,7 @@
                     }
                 }
             }
-// Above: here runtime as discusses before could be O(n+n^2) but 
+// Above: here complexity as discusses before could be O(n+n^2) but 
 // here n^2 dominates so we neglect n and 
 // final Big O notation will be O(n^2)
                 \end{verbatim}

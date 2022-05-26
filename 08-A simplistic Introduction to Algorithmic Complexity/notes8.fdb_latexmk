@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1653562753 "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/08-A simplistic Introduction to Algorithmic Complexity/notes8.tex" "notes8.pdf" "notes8" 1653562754
-  "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/08-A simplistic Introduction to Algorithmic Complexity/notes8.tex" 1653562752 5182 d705e56e4f3807f7f1cf1a245b0b751f ""
+["pdflatex"] 1653563465 "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/08-A simplistic Introduction to Algorithmic Complexity/notes8.tex" "notes8.pdf" "notes8" 1653567163
+  "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/08-A simplistic Introduction to Algorithmic Complexity/notes8.tex" 1653563464 5197 0a7c5e5e57dec0f735ac1eda14543826 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1630643463 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1625726010 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1625726010 1536 05df9db6aeccc4eea94fec15c9024f79 ""
@@ -83,11 +83,11 @@
   "c:/tools/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1625726052 1420077 23c98876064a4b02875c8d357742bee0 ""
   "c:/tools/TinyTeX/texmf.cnf" 1625725976 877 ff6679c7ec2843f2455741ca309c7a7c ""
   "imgs/bigO.png" 1653561562 1101378 d019796e58015600eddd610df55281ef ""
-  "notes8.aux" 1653562754 686 470fdebd29f279999e89f3533b8c7bc8 "pdflatex"
-  "notes8.out" 1653562753 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "notes8.tex" 1653562752 5182 d705e56e4f3807f7f1cf1a245b0b751f ""
+  "notes8.aux" 1653563466 686 470fdebd29f279999e89f3533b8c7bc8 "pdflatex"
+  "notes8.out" 1653563465 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "notes8.tex" 1653563464 5197 0a7c5e5e57dec0f735ac1eda14543826 ""
   (generated)
-  "notes8.aux"
   "notes8.pdf"
-  "notes8.out"
   "notes8.log"
+  "notes8.aux"
+  "notes8.out"
