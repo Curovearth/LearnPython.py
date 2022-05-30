@@ -101,5 +101,17 @@
                 \end{verbatim}
             \end{itemize}
         \end{itemize}
+        \item Generating Power Set
+        \begin{itemize}
+            \item empty powerSet list
+            \item i ranges from 0 to 2**len(given list)
+            \item generating binary representation of i
+            \item empty list subset
+            \item j ranges from 0 to len(given list)
+            \item whenever j encounters a '1' in the binary representation then it'll append that digit from the given list to subset
+            \item further the subsets are then appended to the powerset list
+        \end{itemize}
+        \item Logarithmic algorithm are almost as good as constant time ones.
+        \item Most of a time a linear algorithm is acceptable efficient.
     \end{enumerate}
 \end{document}
