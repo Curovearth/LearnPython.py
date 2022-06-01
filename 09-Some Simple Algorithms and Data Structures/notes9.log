@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.8)  30 MAY 2022 17:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.8)  1 JUN 2022 10:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -266,23 +266,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
 [1
 
-{c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./notes9.aux)
+{c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<07-MergeSort2.drawio.png, id=23, 594.22pt x 381.425pt>
+File: 07-MergeSort2.drawio.png Graphic file (type png)
+<use 07-MergeSort2.drawio.png>
+Package pdftex.def Info: 07-MergeSort2.drawio.png  used on input line 47.
+(pdftex.def)             Requested size: 284.52756pt x 182.6454pt.
+ [2 <./07-MergeSort2.drawio.png>] (./notes9.aux)
 Package rerunfilecheck Info: File `notes9.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8013 strings out of 480477
- 120038 string characters out of 5897329
- 427684 words of memory out of 5000000
- 25633 multiletter control sequences out of 15000+600000
- 408662 words of font info for 44 fonts, out of 8000000 for 9000
+ 8028 strings out of 480477
+ 120316 string characters out of 5897329
+ 433684 words of memory out of 5000000
+ 25642 multiletter control sequences out of 15000+600000
+ 409349 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,11n,66p,341b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on notes9.pdf (1 page, 70751 bytes).
+ 60i,11n,66p,341b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on notes9.pdf (2 pages, 107530 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
