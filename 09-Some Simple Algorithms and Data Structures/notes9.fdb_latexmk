@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1654059890 "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/09-Some Simple Algorithms and Data Structures/notes9.tex" "notes9.pdf" "notes9" 1654059891
+["pdflatex"] 1654071922 "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/09-Some Simple Algorithms and Data Structures/notes9.tex" "notes9.pdf" "notes9" 1654077550
   "07-MergeSort2.drawio.png" 1654059640 43639 e7dc8a3bfcc3a62ffa9aa491d4eeaca8 ""
-  "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/09-Some Simple Algorithms and Data Structures/notes9.tex" 1654059890 2905 86ff720e31211f69c0a803a04b3751aa ""
+  "c:/Users/iwill/Desktop/github/0-Python Again/Pyrup/09-Some Simple Algorithms and Data Structures/notes9.tex" 1654071921 3149 22f03613751c29d37ecfadee9b9d08cc ""
   "c:/tools/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1630643463 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1625726010 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
   "c:/tools/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1625726010 1536 05df9db6aeccc4eea94fec15c9024f79 ""
@@ -79,11 +79,11 @@
   "c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1630643491 294230 165429902c3d04837b16d2425bc0e2f5 ""
   "c:/tools/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1625726052 1420077 23c98876064a4b02875c8d357742bee0 ""
   "c:/tools/TinyTeX/texmf.cnf" 1625725976 877 ff6679c7ec2843f2455741ca309c7a7c ""
-  "notes9.aux" 1654059891 686 4ce905362b6645b598ea182482e9aeed "pdflatex"
-  "notes9.out" 1654059891 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "notes9.tex" 1654059890 2905 86ff720e31211f69c0a803a04b3751aa ""
+  "notes9.aux" 1654071923 686 4ce905362b6645b598ea182482e9aeed "pdflatex"
+  "notes9.out" 1654071922 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "notes9.tex" 1654071921 3149 22f03613751c29d37ecfadee9b9d08cc ""
   (generated)
-  "notes9.out"
-  "notes9.pdf"
   "notes9.log"
   "notes9.aux"
+  "notes9.out"
+  "notes9.pdf"

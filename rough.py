@@ -1,3 +1,6 @@
-l = [1,2,3,4]
-for i in l:
-    print(i)
+alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+letter = 'E'
+
+for i in alphabets:
+    if letter == i:
+        print(alphabets.index(i)+1)
