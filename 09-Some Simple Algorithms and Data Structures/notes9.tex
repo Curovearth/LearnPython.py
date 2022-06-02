@@ -18,6 +18,15 @@
         \item \textbf{SEARCH ALGORITHMS}
         \begin{enumerate}
             \item a method for finding an item or group of items with specific properties within a collection of items.
+            \item \textit{BINARY SEARCH}
+            \begin{itemize}
+                \item Binary search is similar to the bisection search algorithm
+                \item Here we rely on the assumption that the list is ordered
+                \item Pick an index i, that divides the list l roughly in half
+                \item ask if l[i] == e
+                \item if not, ask whether l[i] is larger or smaller than e
+                \item depending upon the answer, search either left or right half of l for e.
+            \end{itemize}
         \end{enumerate}
         \item \textbf{SORTING ALGORITHMS}
         \begin{itemize}
@@ -52,6 +61,39 @@
             \item The sorting algorithm used in most Python Implementation is called \textbf{timsort.}
             \item Timsort's worst case performance is the same as merge sort's, but on average it performs considerablty better.
         \end{itemize}
-        
+        \item The relational operators compare the Unicode values of the characters of the strings from the zeroth index till the end of the string. It then returns a boolean value according to the operator used. \href{https://www.geeksforgeeks.org/string-comparison-in-python/}{String Comparison}
+        \item Both list.sort and sorted function can have two additional parameters. The key parameter plays the same role as in our implementation of merge.sort: it supplies the comparison function to be used.
+        \begin{verbatim}
+        L = [[1,2,3],(3,2,1,0),'abc']
+        print(sorted(L,key=len,reverse=True))
+        # sorts the element of L in reverse order of length and prints
+
+        # Output is
+        [(3, 2, 1, 0), [1, 2, 3], 'abc']
+        \end{verbatim}
+        \item \textbf{Hash Tables}
+        \begin{itemize}
+            \item The hash value is an integer which is used to quickly compare dictionary keys while looking at a dictionary.
+            \item Dictionaries use a technique called hashing to do the lookup in time that is nearly indpendent of the size of the dictionary.
+            \item We convert the key to an integer, and then use that integer to index into a list, which can be done in constant time.
+            \item Internal Representation of string 'abc' is
+            \begin{verbatim}
+            >>> list(map(bin,bytearray('abc','utf8'))) 
+                ['0b1100001', '0b1100010', '0b1100011']
+
+            >>> ''.join(list(map(bin,bytearray('abc','utf8'))))  
+                '0b11000010b11000100b1100011'
+
+        'utf8' is the encoding type
+        bin is Binary conversion
+        bytearray returns a bytearray object (i.e. array of bytes)
+            \end{verbatim}
+            \item A hash function maps a large space of inputs(e.g. all natural numbers) to a smaller space of outputs(e.g. the natural numbers between 0 and 5000).
+            \item They can be used to convert a large space of keys to a smaller space of integer indices.
+            \item Hash function is a \textbf{many-to-one mapping.} i.e., multiple different inputs may be mapped to the same output.
+            \item When two inputs are mapped to the same output, it is called \textit{collision}.
+            \item A good hash function produces a \textit{uniform distribution} i.e., every output in the range is equally probable, which minimizes the probability of collisions.
+            \item The basic idea is to represent an instance of class intDict by a list of \textit{hash buckets} where each bucket is a list of key/value pairs implemented as tuples.
+        \end{itemize}
     \end{enumerate}
 \end{document}
