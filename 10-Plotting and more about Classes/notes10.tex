@@ -13,6 +13,17 @@
     \maketitle
     A curated list of important points for my reference.\\
     \begin{enumerate}
-        \item jsfljkl
+        \item In many programming languages presenting visual data is too hard. Fortunately, it is simple to do in python.
+        \item \textbf{PyLab} is a python standard library module that provides many of the facilites of MATLAB(a high level technical computing language)
+        \item General workflow
+        \begin{verbatim}
+        pylab.figure(1)
+        pylab.plot([x axis val],[y axis val])
+        pylab.show()
+        \end{verbatim}
+        \item The letters and symbols of the format string are derived from those used in MATLAB, and are composed of a color indicator followed by an optional line-style indicator
+        
+        The default format string is '-b;, which produces a solid blue line. To plot the growth in principal with black circles, one would replace by \textit{pylab.plot(values)} by \textit{pylab.plot(values,'ko')}.
+        \item It is also possible to chang the default values, which are know as 'rc settings' (the name 'rc' is derived from the .rc file extension used for runtime configuration files in Unix). These values are stored in a dictionary like variable that can be accessed via the name \textit{pylab.rcparams['lines.linewidth']=6}
     \end{enumerate}
 \end{document}
