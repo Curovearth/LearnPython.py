@@ -94,3 +94,25 @@ def testGreedys(maxWeight = 20):
     testGreedy(items, maxWeight, density)
 
 testGreedys()
+
+'''
+OUTPUT
+
+Use greedy by value to fill knapsack of size 20
+Total value of items take is 200.0
+  <computer, 200, 20>
+
+Use greedy by weight to fill knapsack of size 20   
+Total value of items take is 170.0
+  <book, 10, 1>
+  <vase, 50, 2>
+  <radio, 20, 4>
+  <painting, 90, 9>
+
+Use greedy by density to fill knapsack of size 20  
+Total value of items take is 250.0
+  <vase, 50, 2>
+  <clock, 170, 10>
+  <book, 10, 1>
+  <radio, 20, 4>
+'''
